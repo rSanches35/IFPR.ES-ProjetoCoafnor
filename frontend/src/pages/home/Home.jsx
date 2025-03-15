@@ -1,15 +1,14 @@
-import React from "react";
- import { Helmet } from 'react-helmet';
- 
- import './Home.css';
- 
- const Home = () => {
- 
-     return (
-         <>
-            <Helmet><title>COAFNOR</title></Helmet>
+import React, { useEffect } from "react";
 
-            
-         </>
-     );
- }; export default Home;
+import './Home.css';
+
+const Home = () => {
+
+    useEffect(() => { document.title = "COAFNOR";}, []);
+
+    return (
+        <>
+        
+        </>
+    );
+}; export default Home;
