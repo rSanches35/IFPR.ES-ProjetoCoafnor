@@ -1,0 +1,404 @@
+/* Estilos para a página de História */
+
+.history-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.history-header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.history-header-section h1 {
+    color: #2e7d32;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.history-header-section p {
+    color: #666;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.history-story {
+    margin-bottom: 3rem;
+}
+
+.story-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.story-card h3 {
+    color: #2e7d32;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.story-card p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.timeline-section {
+    margin-bottom: 3rem;
+}
+
+.timeline-section h2 {
+    color: #2e7d32;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.timeline-card {
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #4CAF50;
+}
+
+.timeline-content {
+    padding: 1rem;
+}
+
+.timeline-year {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-title {
+    color: #2e7d32;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.timeline-date {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    margin-bottom: 1rem;
+}
+
+.timeline-description {
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.custom-marker {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+}
+
+.achievements-section {
+    margin-bottom: 3rem;
+}
+
+.achievements-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.achievements-card h3 {
+    color: #2e7d32;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.achievements-list {
+    list-style: none;
+    padding: 0;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.achievement-item:hover {
+    transform: translateX(5px);
+    background-color: #e8f5e8;
+}
+
+.achievement-item i {
+    color: #4CAF50;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.mission-section {
+    margin-bottom: 3rem;
+}
+
+.mission-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #e8f5e8 0%, #f8f9fa 100%);
+}
+
+.mission-card h3 {
+    color: #2e7d32;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.mission-card p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    font-style: italic;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .history-container {
+        padding: 1rem;
+    }
+    
+    .history-header-section h1 {
+        font-size: 2rem;
+    }
+    
+    .timeline-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .timeline-year {
+        font-size: 1.3rem;
+    }
+    
+    .timeline-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* Animações */
+.timeline-card {
+    animation: slideInUp 0.6s ease-out;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.achievement-item {
+    animation: fadeInLeft 0.5s ease-out;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Estilos para a seção de infraestrutura */
+.infrastructure-section {
+    margin-bottom: 3rem;
+}
+
+.infrastructure-section h2 {
+    color: #2e7d32;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.infrastructure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.infrastructure-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #4CAF50;
+}
+
+.infrastructure-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.infrastructure-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.infrastructure-icon {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.infrastructure-header h3 {
+    color: #2e7d32;
+    font-size: 1.4rem;
+    margin: 0;
+    flex: 1;
+}
+
+.establishment-year {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.infrastructure-location {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.infrastructure-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.facilities-list,
+.objectives-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.facilities-list li,
+.objectives-list li {
+    padding: 0.5rem 0;
+    color: #555;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.facilities-list li::before,
+.objectives-list li::before {
+    content: "✓";
+    color: #4CAF50;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.infrastructure-card h4 {
+    color: #2e7d32;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.products-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.product-chip {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    font-size: 0.9rem;
+}
+
+.investment-info {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.investment-info h4 {
+    color: #2e7d32;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.funding-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.funding-list li {
+    padding: 0.3rem 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Responsividade para infraestrutura */
+@media (max-width: 768px) {
+    .infrastructure-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .infrastructure-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .establishment-year {
+        align-self: flex-start;
+    }
+}
+
+/* Animação para cards de infraestrutura */
+.infrastructure-card {
+    animation: slideInScale 0.8s ease-out;
+}
+
+@keyframes slideInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}

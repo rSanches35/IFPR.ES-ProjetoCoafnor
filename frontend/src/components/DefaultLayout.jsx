@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from './header/Header';
-//import Footer from './footer/Footer';
+import Footer from './footer/Footer';
 
 import './DefaultLayout.css';
 
@@ -13,7 +13,7 @@ const DefaultLayout = ({ children }) => {
             <div className="content">
                 {children}
             </div>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     );
 }; export default DefaultLayout;
