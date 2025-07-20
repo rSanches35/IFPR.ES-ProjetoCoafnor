@@ -10,9 +10,11 @@ const Header = () => {
 
     const items = [
         {label: 'Início', command: () => { navigate('/'); }},
-        {label: 'Opção 2', command: () => { navigate('/announcement-list'); }},
-        {label: 'Opção 3', command: () => { navigate('/guardian-list'); }},
-        {label: 'Opção 4', command: () => { navigate('/employee-list'); }},
+        {label: 'Sobre', command: () => { navigate('/sobre'); }},
+        {label: 'Produtos', command: () => { navigate('/produtos'); }},
+        {label: 'História', command: () => { navigate('/historia'); }},
+        {label: 'Galeria', command: () => { navigate('/galeria'); }},
+        {label: 'Contato', command: () => { navigate('/contato'); }},
     ];
 
     const [isUserMenuVisible, setIsUserMenuVisible] = useState(false);
@@ -33,7 +35,7 @@ const Header = () => {
 
     const start = (
         <div className="flex align-items-center ml-3 mr-5 logo">
-            <img alt="logo" src="/images/logo_coafnor.png" height="53"/>
+            <img alt="logo" src="/images/COFANOR_Logo.png" height="53"/>
         </div>
     );
 

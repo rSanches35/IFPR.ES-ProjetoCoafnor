@@ -1,0 +1,245 @@
+.contact-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.contact-header h1 {
+    color: #AE906E;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-card {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon {
+    font-size: 2.5rem;
+    color: #4bca60;
+    margin-bottom: 1rem;
+}
+
+.contact-info h3 {
+    color: #AE906E;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.contact-info p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-form-section {
+    margin-top: 3rem;
+}
+
+.contact-form-card {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-card h2 {
+    color: #AE906E;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4bca60;
+}
+
+.contact-submit {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 1rem;
+    }
+    
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .management-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Management Section Styles */
+.management-section {
+    margin-top: 4rem;
+    padding: 2rem 0;
+}
+
+.management-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.management-header h2 {
+    color: #AE906E;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.management-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.management-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.management-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.management-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.management-info {
+    text-align: center;
+}
+
+.management-icon {
+    font-size: 2.5rem;
+    color: #AE906E;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.management-info h3 {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.management-list {
+    text-align: left;
+}
+
+.management-list p {
+    margin: 0.5rem 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.management-list p strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Responsive adjustments for management section */
+@media (max-width: 768px) {
+    .management-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .management-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .management-card {
+        padding: 1rem;
+    }
+    
+    .management-icon {
+        font-size: 2rem;
+    }
+}

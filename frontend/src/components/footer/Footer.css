@@ -1,0 +1,180 @@
+/* Estilos do Footer */
+
+.footer-container {
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    color: white;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem 1rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    color: #a5d6a7;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.footer-section p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #e8f5e8;
+}
+
+.contact-info {
+    margin-top: 1.5rem;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.contact-info i {
+    margin-right: 0.8rem;
+    color: #4caf50;
+    font-size: 1.1rem;
+    width: 20px;
+}
+
+.project-info h4 {
+    color: #4caf50;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.project-info p {
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+.institution-info p {
+    margin-bottom: 0.6rem;
+    font-size: 0.95rem;
+}
+
+.institution-info strong {
+    color: #a5d6a7;
+}
+
+.institution-logo {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #4caf50;
+}
+
+.institution-logo p:last-child {
+    color: #4caf50;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    padding-top: 1.5rem;
+}
+
+.footer-bottom-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-bottom-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #c8e6c9;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 2rem 1rem 1rem;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .footer-bottom-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        padding: 1.5rem 1rem 1rem;
+    }
+    
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+    
+    .project-info p,
+    .institution-info p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Animações */
+.footer-section {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effects */
+.contact-info p:hover {
+    color: #4caf50;
+    cursor: default;
+    transition: color 0.3s ease;
+}
+
+.contact-info p:hover i {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* PrimeReact Divider customization */
+.footer-container .p-divider {
+    margin: 2rem 0 1rem;
+}
+
+.footer-container .p-divider-horizontal:before {
+    border-top-color: #4caf50;
+}
