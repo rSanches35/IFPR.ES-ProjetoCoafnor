@@ -23,69 +23,69 @@ const Gallery = () => {
     // Para cada vídeo: 1. Faça upload no Google Drive, 2. Configure como "Qualquer pessoa com o link", 3. Copie o link de compartilhamento
     const allVideos = [
         {
-            name: "DJI_0006.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_1/view?usp=sharing", // Substitua pelo link real
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_1/preview" // Substitua pelo link real
+            name: "Video 1 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1gTAp6yJVP-Bja_h04Ea-5cAoYPYZLcJc/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1gTAp6yJVP-Bja_h04Ea-5cAoYPYZLcJc/preview"
         },
         {
-            name: "DJI_0009.MP4", 
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_2/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_2/preview"
+            name: "Video 2 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1KMDjBl0ZUJftaG2_Vb-tvCF9NCToeKTI/view?usp=drive_link",
+            embedUrl: "https://drive.google.com/file/d/1KMDjBl0ZUJftaG2_Vb-tvCF9NCToeKTI/preview"
         },
         {
-            name: "DJI_0017.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_3/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_3/preview"
+            name: "Video 3 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1rQi2jlmq03WUh-QssuguGGbdCjxKlTCZ/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1rQi2jlmq03WUh-QssuguGGbdCjxKlTCZ/preview"
         },
         {
-            name: "DJI_0035.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_4/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_4/preview"
+            name: "Video 4 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1gKvu1I18ezWM8sQWiilvKbvNyWZZRLQG/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1gKvu1I18ezWM8sQWiilvKbvNyWZZRLQG/preview"
         },
         {
-            name: "DJI_0037.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_5/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_5/preview"
+            name: "Video 5 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1ixOw-U0kAHroLEK_q3x-RrdqJwODD82l/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1ixOw-U0kAHroLEK_q3x-RrdqJwODD82l/preview"
         },
         {
-            name: "DJI_0040.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_6/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_6/preview"
+            name: "Video 6 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1TtS7ZzNZMTAI4U8HKHOohIFPSsE4fVr4/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1TtS7ZzNZMTAI4U8HKHOohIFPSsE4fVr4/preview"
         },
         {
-            name: "DJI_0041.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_7/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_7/preview"
+            name: "Video 7 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1jUKNIll-jbC7EPWADOzlzm5P1I1c_Xl-/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1jUKNIll-jbC7EPWADOzlzm5P1I1c_Xl-/preview"
         },
         {
-            name: "DJI_0042.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_8/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_8/preview"
+            name: "Video 8 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1EKcc3rHzd5abd0huM5J5uZZks2LXEEpP/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1EKcc3rHzd5abd0huM5J5uZZks2LXEEpP/preview"
         },
         {
-            name: "DJI_0055.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_9/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_9/preview"
+            name: "Video 9 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/18i4a28IpCZKp0a4s1z5o8e9XsU2gNoXv/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/18i4a28IpCZKp0a4s1z5o8e9XsU2gNoXv/preview"
         },
         {
-            name: "DJI_0056.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_10/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_10/preview"
+            name: "Video 10 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1jRcOA2sjPQtvCRA6_kGa44MJrwMww2Gi/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1jRcOA2sjPQtvCRA6_kGa44MJrwMww2Gi/preview"
         },
         {
-            name: "DJI_0062.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_11/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_11/preview"
+            name: "Video 11 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1O3Z5JaLKxhinoTnM0bhi0GcmL4hA1FrY/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1O3Z5JaLKxhinoTnM0bhi0GcmL4hA1FrY/preview"
         },
         {
-            name: "DJI_0072.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_12/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_12/preview"
+            name: "Video 12 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1Bpk06cnuoBg34M2sy5gvnQDYRo_5LNJO/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1Bpk06cnuoBg34M2sy5gvnQDYRo_5LNJO/preview"
         },
         {
-            name: "DJI_0079.MP4",
-            driveUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_13/view?usp=sharing",
-            embedUrl: "https://drive.google.com/file/d/SEU_ID_AQUI_13/preview"
+            name: "Video 13 - COAFNOR.mp4",
+            driveUrl: "https://drive.google.com/file/d/1UMZj6E7TrqlF3vTLKgACyJSVM4KCN6mg/view?usp=sharing",
+            embedUrl: "https://drive.google.com/file/d/1UMZj6E7TrqlF3vTLKgACyJSVM4KCN6mg/preview"
         }
     ];
 
