@@ -14,41 +14,33 @@ const About = () => {
             </div>
 
             <div className="about-content">
-                <section className="about-section">
-                    <h2>Nossa História</h2>
-                    <p>
-                        A COAFNOR foi fundada com o objetivo de fortalecer a agricultura familiar 
-                        na região norte, promovendo o desenvolvimento sustentável e a qualidade 
-                        de vida dos cooperados.
-                    </p>
-                </section>
 
                 <section className="about-section">
                     <h2>Missão</h2>
                     <p>
-                        Promover o desenvolvimento da agricultura familiar através da cooperação, 
-                        inovação e sustentabilidade, garantindo melhores condições de vida para 
-                        nossos cooperados e suas famílias.
+                        Buscar a comercialização de produtos dos cooperados, garantindo a qualidade e 
+                        excelência no atendimento aos clientes, possibilitando a igualdade e permanência
+                        do agricultor no meio rural, priorizando a Agricultura Familiar
                     </p>
                 </section>
 
                 <section className="about-section">
                     <h2>Visão</h2>
                     <p>
-                        Ser referência em cooperativismo agrícola na região, reconhecida pela 
-                        qualidade dos produtos, inovação tecnológica e compromisso com a 
-                        sustentabilidade.
+                        Ser reconhecida pela diversidade e excelência dos produtos ofertados pelos agricultores,
+                        sempre buscando a qualificação do quadro social e colaboradores.
                     </p>
                 </section>
 
                 <section className="about-section">
                     <h2>Valores</h2>
                     <ul>
-                        <li>Cooperação e solidariedade</li>
-                        <li>Sustentabilidade ambiental</li>
-                        <li>Inovação e tecnologia</li>
-                        <li>Transparência e ética</li>
-                        <li>Qualidade e excelência</li>
+                        <li>Qualidade</li>
+                        <li>Cooperação</li>
+                        <li>Ética</li>
+                        <li>Responsabilidade Social</li>
+                        <li>Transparência</li>
+                        <li>Inovação</li>
                     </ul>
                 </section>
             </div>

@@ -120,13 +120,6 @@ const History = () => {
                     </Card>
                 </div>
             </div>
-
-            <div className="mission-section">
-                <Card className="mission-card">
-                    <h3>Nossa Missão</h3>
-                    <p>{coafnorData.history.mission}</p>
-                </Card>
-            </div>
         </div>
     );
 };
