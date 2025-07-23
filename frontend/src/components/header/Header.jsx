@@ -11,8 +11,8 @@ const Header = () => {
     const items = [
         {label: 'Início', command: () => { navigate('/'); }},
         {label: 'Sobre', command: () => { navigate('/sobre'); }},
-        {label: 'Produtos', command: () => { navigate('/produtos'); }},
         {label: 'História', command: () => { navigate('/historia'); }},
+        {label: 'Produtos', command: () => { navigate('/produtos'); }},
         {label: 'Galeria', command: () => { navigate('/galeria'); }},
         {label: 'Contato', command: () => { navigate('/contato'); }},
     ];

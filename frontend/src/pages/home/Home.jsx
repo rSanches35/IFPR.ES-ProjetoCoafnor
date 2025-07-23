@@ -11,10 +11,10 @@ const Home = () => {
     return (
         <>
         
-        <Image src="/images/home.png" alt="Image Cover" width="100%" />
+        <Image src="/images/visitaTecnica/DSC04252.JPG" alt="Image Cover" width="100%" />
 
         <div className="flex items-center mr-5 ml-8 my-8 gap-4">
-            <img className="teste" src="/images/farm.webp" alt="Agricultura Familiar" width="300px" />
+            <img className="teste" src="/images/visitaTecnica/DSC04256.JPG" alt="Agricultura Familiar" width="300px" />
             
             <div className="max-w-md ml-2">
                 <h2 className="text-xl font-bold">Agricultura Familiar Sustentável</h2>
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
 
         <div className="flex items-center mr-5 ml-8 my-8 gap-4">
-            <img className="teste" src="/images/food.jfif" alt="Produtos de Qualidade" width="300px" />
+            <img className="teste" src="/images/visitaTecnica/DSC04277.JPG" alt="Produtos de Qualidade" width="300px" />
             
             <div className="max-w-md ml-2">
                 <h2 className="text-xl font-bold">Produtos de Qualidade Superior</h2>
