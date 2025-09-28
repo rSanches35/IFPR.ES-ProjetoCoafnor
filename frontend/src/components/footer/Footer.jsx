@@ -16,6 +16,9 @@ const Footer = () => {
                             <p><i className="pi pi-phone"></i> (44) 3431-1981</p>
                             <p><i className="pi pi-envelope"></i> coafnor@hotmail.com</p>
                         </div>
+                        <div className="institutional-logo">
+                            <img src="/images/GovernoFederal.png" alt="Governo Federal - Brasil" className="partner-logo" />
+                        </div>
                     </div>
                     
                     <div className="footer-section">
@@ -23,6 +26,9 @@ const Footer = () => {
                         <div className="project-info">
                             <h4>"Do Campo à Mesa"</h4>
                             <p>Extensão Universitária para Fortalecer a Sustentabilidade Ambiental, Econômica, Social e Higiênico-Sanitária de Leite e Queijo da Agricultura Familiar no Noroeste do Paraná</p>
+                        </div>
+                        <div className="institutional-logo">
+                            <img src="/images/ItaipuParquetec.png" alt="Itaipu Parquetec" className="partner-logo" />
                         </div>
                     </div>
                     
@@ -37,6 +43,9 @@ const Footer = () => {
                                 <p>Instituto Federal do Paraná (IFPR)</p>
                                 <p>Campus Paranavaí</p>
                             </div>
+                        </div>
+                        <div className="institutional-logo">
+                            <img src="/images/ItaipuBinacional.png" alt="Itaipu Binacional - Mais que Energia" className="partner-logo" />
                         </div>
                     </div>
                 </div>
