@@ -35,7 +35,7 @@ const Header = () => {
 
     const start = (
         <div className="flex align-items-center ml-3 mr-5 logo">
-            <img alt="logo" src="/images/COFANOR_LOGO.png" height="53"/>
+            <img alt="logo" src="/images/COFANOR_Logo.png" height="53"/>
         </div>
     );
 
